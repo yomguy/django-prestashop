@@ -15,7 +15,7 @@ setup(
     install_requires=['django',],
     platforms=['OS Independent'],
     license='Lesser GNU Public License v3',
-    packages=['eve'],
+    packages=['prestashop'],
     include_package_data=True,
     zip_safe=False,
     )
