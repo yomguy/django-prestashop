@@ -1,5 +1,5 @@
 from django.contrib import admin
-from presta.models import PsCustomer
+from prestashop.models import PsCustomer
 from eve.views import Presta2Eve
 from eve.utils import Logger
 
