@@ -550,7 +550,7 @@ class PsCategoryGroup(models.Model):
 
 
 class PsCategoryLang(models.Model):
-    id_category = models.IntegerField()
+    id_category = models.IntegerField(primary_key=True)
     id_shop = models.IntegerField()
     id_lang = models.IntegerField()
     name = models.CharField(max_length=128)
@@ -2808,7 +2808,7 @@ class PsProductGroupReductionCache(models.Model):
 
 
 class PsProductLang(models.Model):
-    id_product = models.IntegerField()
+    id_product = models.IntegerField(primary_key=True)
     id_shop = models.IntegerField()
     id_lang = models.IntegerField()
     description = models.TextField(blank=True, null=True)
