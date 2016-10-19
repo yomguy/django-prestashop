@@ -567,7 +567,7 @@ class PsCategoryLang(models.Model):
 
 
 class PsCategoryProduct(models.Model):
-    id_category = models.IntegerField()
+    id_category = models.IntegerField(primary_key=True)
     id_product = models.IntegerField()
     position = models.IntegerField()
 
